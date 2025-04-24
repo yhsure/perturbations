@@ -1,8 +1,8 @@
 ![Perturbations logo](data/perturbs_small.png)
-# Explainable perturbations for models in single-cell sequencing
+# What do single-cell models already know about perturbations?
 
 ### Abstract
-Generative models learn underlying dynamics of data and can do more than just reconstruction. By leveraging output gradients with respect to the latent dimensions, we explore a simple approach to infer arbitrary perturbation effects on interpretive flow maps within high-dimensional biological datasets. By applying this method to several cases in single-cell RNA-sequencing, we demonstrate its use in inferring effects from knockdown, overexpression, toxin response and embryonic development. This approach can further add global structure to dimensionality reductions which only preserve local patterns. Needing only a decoder, our method simplifies analyses, is adaptable with already trained models, and offers clearer insights into cellular dynamics without complex setups. In turn, this gives a more straightforward interpretation of results, making it easier to discern underlying biological pathways with easily understandable visual representations.
+Generative models implicitly learn underlying dynamics of data and can do more than just reconstruction. By leveraging output gradients with respect to the latent dimensions, we explore a simple approach to infer arbitrary perturbation effects which generates interpretive flow maps within high-dimensional biological datasets. By applying this method to several cases in single-cell RNA-sequencing, we demonstrate its use in inferring effects from knockdown, overexpression, toxin response and embryonic development. This approach can further add global structure to dimensionality reductions which normally only preserve local patterns. Needing only a decoder, our method simplifies analyses, is applicable to already trained models, and offers clearer insights into cellular dynamics without complex setups. In turn, this gives a more straightforward interpretation of results, making it easier to discern underlying biological pathways with easily understandable visual representations.
 
 ### Running the project
 To reproduce the results, follow these steps.
@@ -25,3 +25,19 @@ To reproduce the results, follow these steps.
 [celegans]: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126954
 [irf8]: https://www.brainimmuneatlas.org/download.php
 [ctx]: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-9715/downloads
+
+### Citation 
+To cite the work or codebase: 
+
+### Citation
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{bjerregaard2025interpretable,
+  title     = {What do single-cell models already know about perturbations?},
+  author    = {Bjerregaard, Andreas and Das, Vivek and Krogh, Anders},
+  booktitle = {ICLR 2025 Workshop on Machine Learning for Genomics Explorations},
+  month     = {April},
+  year      = {2025}
+}
+```
