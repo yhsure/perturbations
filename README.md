@@ -26,11 +26,8 @@ To reproduce the results, follow these steps.
 [irf8]: https://www.brainimmuneatlas.org/download.php
 [ctx]: https://www.ebi.ac.uk/gxa/sc/experiments/E-MTAB-9715/downloads
 
-### Citation 
-To cite the work or codebase: 
-
 ### Citation
-If you use this work, please cite:
+To cite the work or codebase: 
 
 ```bibtex
 @inproceedings{bjerregaard2025interpretable,
