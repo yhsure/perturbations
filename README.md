@@ -14,7 +14,7 @@
 
 > **What do single-cell models already know about perturbations?**<br>
 > Andreas Bjerregaard, Iñigo Prada-Luengo, Vivek Das and Anders Krogh<br>
-> *Genes 16 (12), 2025*<br>
+> *Genes 16 (12) 2025; also ICLR MLGenX 2025*<br>
 > <a href="https://www.mdpi.com/2073-4425/16/12/1439" target="_blank">*https://www.mdpi.com/2073-4425/16/12/1439*</a> <br>
 > 
 > **Abstract:**
