@@ -32,8 +32,6 @@ To reproduce the results, follow these steps.
 
 3. Finally, the `.ipynb` notebooks can be run to generate the results. 
 
-**Note**: This readme will be extended upon approval.
-
 ### Citation
 To cite the work or codebase: 
 
